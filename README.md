@@ -1,7 +1,7 @@
 # zsh-custom
 
 ## Customized af-magic theme
-Compact version of [af-magic](af-magic). Changes:
+Compact version of [af-magic](https://github.com/andyfleming/oh-my-zsh/blob/master/themes/af-magic.zsh-theme). Changes:
 * Dashed horizontal delimiter was replaced with a blank line as it causes a mess on the terminal size decrease.
 * Prompt moved to a new line to stick it on the left side.
 * Minor cosmetics changes.
