@@ -14,5 +14,5 @@ Compact version of [af-magic](https://github.com/andyfleming/oh-my-zsh/blob/mast
 
 Add to `.zshrc` before `antigen apply`:
 
-    antigen bundle lorond/zsh-custom themes/af-magic-lorond.zsh-theme
+    antigen bundle lorond/zsh-lorond themes/af-magic-lorond.zsh-theme
     antigen theme af-magic-lorond
