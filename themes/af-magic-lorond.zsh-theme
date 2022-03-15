@@ -13,18 +13,6 @@ typeset +H return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 typeset +H my_gray="$FG[237]"
 typeset +H my_orange="$FG[214]"
 
-# separator dashes size
-function afmagic_dashes {
-	local PYTHON_ENV="$VIRTUAL_ENV"
-	[[ -z "$PYTHON_ENV" ]] && PYTHON_ENV="$CONDA_DEFAULT_ENV"
-
-	if [[ -n "$PYTHON_ENV" && "$PS1" = \(* ]]; then
-		echo $(( COLUMNS - ${#PYTHON_ENV} - 3 ))
-	else
-		echo $COLUMNS
-	fi
-}
-
 # primary prompt
 PS1='
 $FG[032]%~ $(git_prompt_info)$(hg_prompt_info)
